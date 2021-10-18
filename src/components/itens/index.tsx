@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { SelectorDiv } from './styles';
 import api from '../../services/api';
 
-interface Products {
+interface People {
   name: string;
   email: number;
   city: string;
@@ -13,7 +13,7 @@ interface Products {
 }
 
 const ViewPeople = () => {
-  const [data, setData] = useState<Products[]>([])
+  const [data, setData] = useState<People[]>([])
 
     const handleGettingPatientsData = async () => {
     try {
