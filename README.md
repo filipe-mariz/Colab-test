@@ -1,4 +1,4 @@
-# Projeo Colab
+# Projeto Colab
 
 Este Projeto foi desenvolvido por Filipe Mariz para empresa Colab. Abaixo há uma pequena documentação.
 
